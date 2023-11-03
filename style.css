@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:arial;
+}
+header{
+    background-color: green;
+    color: white;
+    padding: 15px 0px 20px 40px;
+}
+h2#header-title{
+    padding:10px 0px;
+}
+div#content{
+    padding: 10px 0px 0px 45px;
+}
+div#content > h4{
+    border-bottom: 2px solid green;
+    padding:0px 20px 10px 5px;
+    display:inline-block ;
+    width:50%;
+}
+li.list-item{
+    border-bottom: 1px solid gray;
+    padding: 10PX 0px;
+}
+form{
+    padding-top: 20px;
+}
+form > input, button{
+    padding: 5px;
+}
+.btn{
+    color:red;
+    background-color: black;
+}
+.input{
+    border:2px solid black;
+}
+#header-title{
+    color:yellow;
+}
+#tagline{
+    color:red;
+}
+.text{
+    color:blue;
+}
